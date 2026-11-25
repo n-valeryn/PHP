@@ -1,0 +1,19 @@
+.formulario-login {
+    background-color: rgb(95, 40, 88);
+    padding: 20px;
+    border-radius: 15px;
+    
+    width: 400px;
+    min-width: 400px;
+    text-align: center;
+    margin: auto ;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    
+}
