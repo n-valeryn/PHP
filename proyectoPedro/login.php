@@ -1,11 +1,10 @@
 <?php
 
 session_start();
-if (isset($_SESSION["user_logged"])){
+if (isset($_SESSION["user_loggeado"])){
     header("Location: ./dashboard.php");
     exit();
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -17,8 +16,6 @@ if (isset($_SESSION["user_logged"])){
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    
-    <h3>Inicia sesión</h3>
 
     <section class="formulario-login">
     <form action="middleware.php" method="POST">
@@ -37,6 +34,7 @@ if (isset($_SESSION["user_logged"])){
         <button type="submit">Iniciar Sesión</button>
         </div>
     </form>
-</section>
+    </section>
+
 </body>
 </html>

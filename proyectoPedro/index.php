@@ -13,7 +13,7 @@ session_start();
 </head>
 <body>
     
-    <a href="login.php">Login</a>
+    <?php include_once("partials/header.php");?>
 
     <h1>SIN SESIÓN INICIADA</h1>
 
